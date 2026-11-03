@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_bg">#FF000000</color>
+    <color name="wp_down">#FF9CCBFF</color>
+    <color name="wp_up">#FFB5E87C</color>
+    <color name="wp_mobile">#FFFF8A5C</color>
+    <color name="wp_text">#FFFFFFFF</color>
+    <color name="wp_text2">#B3FFFFFF</color>
+    <color name="wp_track">#33FFFFFF</color>
+    <color name="w_down">#FF9CCBFF</color>
+    <color name="w_up">#FFB5E87C</color>
+    <color name="w_mobile">#FFFF8A5C</color>
+    <color name="w_text">#FFFFFFFF</color>
+    <color name="w_text2">#B3FFFFFF</color>
+    <color name="w_track">#33FFFFFF</color>
+    <color name="w_glow">#99000000</color>
+</resources>
