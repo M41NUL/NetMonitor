@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal" android:padding="10dp" android:background="@drawable/widget_glass" android:gravity="center_vertical">
+        <TextView android:id="@+id/tv_down" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center_vertical|start"
+            android:maxLines="1" android:textColor="@color/w_down" android:shadowColor="@color/w_glow" android:shadowRadius="3" android:shadowDx="0" android:shadowDy="1" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="7sp" android:autoSizeMaxTextSize="22sp" android:autoSizeStepGranularity="1sp" android:textStyle="bold" />
+        <TextView android:id="@+id/tv_up" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center_vertical|start"
+            android:maxLines="1" android:textColor="@color/w_up" android:shadowColor="@color/w_glow" android:shadowRadius="3" android:shadowDx="0" android:shadowDy="1" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="7sp" android:autoSizeMaxTextSize="22sp" android:autoSizeStepGranularity="1sp" android:textStyle="bold" />
+        <TextView android:id="@+id/tv_today" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1.2" android:gravity="center_vertical|end"
+            android:maxLines="1" android:textColor="@color/w_text2" android:shadowColor="@color/w_glow" android:shadowRadius="3" android:shadowDx="0" android:shadowDy="1" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="7sp" android:autoSizeMaxTextSize="20sp" android:autoSizeStepGranularity="1sp" />
+</LinearLayout>
