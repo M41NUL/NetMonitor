@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NetMonitor</string>
+    <string name="channel_name">Live speed</string>
+    <string name="channel_desc">Shows live internet speed and data usage</string>
+    <string name="widget_speed_label">NetMonitor · Speed</string>
+    <string name="widget_speed_desc">Live download and upload speed</string>
+    <string name="widget_usage_label">NetMonitor · Usage</string>
+    <string name="widget_usage_desc">Data used today</string>
+    <string name="widget_graph_label">NetMonitor · Live graph</string>
+    <string name="widget_graph_desc">Speed, network name and a live graph</string>
+    <string name="widget_month_label">NetMonitor · Month</string>
+    <string name="widget_month_desc">This month\'s WiFi and mobile usage</string>
+    <string name="widget_signal_label">NetMonitor · Signal</string>
+    <string name="widget_signal_desc">Signal strength and network name</string>
+    <string name="widget_strip_label">NetMonitor · Strip</string>
+    <string name="widget_strip_desc">Speed and today\'s usage in one line</string>
+    <string name="shortcut_speed_short">Speed test</string>
+    <string name="shortcut_speed_long">Run a speed test</string>
+    <string name="shortcut_history_short">History</string>
+    <string name="shortcut_history_long">Data usage history</string>
+    <string name="shortcut_settings_short">Settings</string>
+    <string name="shortcut_settings_long">NetMonitor settings</string>
+</resources>
