@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="speed"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_speed"
+        android:shortcutShortLabel="@string/shortcut_speed_short"
+        android:shortcutLongLabel="@string/shortcut_speed_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.netmonitor.app"
+            android:targetClass="com.netmonitor.app.MainActivity">
+            <extra android:name="tab" android:value="speed" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="history"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_history"
+        android:shortcutShortLabel="@string/shortcut_history_short"
+        android:shortcutLongLabel="@string/shortcut_history_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.netmonitor.app"
+            android:targetClass="com.netmonitor.app.MainActivity">
+            <extra android:name="tab" android:value="history" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_settings"
+        android:shortcutShortLabel="@string/shortcut_settings_short"
+        android:shortcutLongLabel="@string/shortcut_settings_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.netmonitor.app"
+            android:targetClass="com.netmonitor.app.MainActivity">
+            <extra android:name="tab" android:value="settings" />
+        </intent>
+    </shortcut>
+</shortcuts>
