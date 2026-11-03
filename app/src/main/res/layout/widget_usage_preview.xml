@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical" android:padding="14dp"
+    android:background="@drawable/widget_glass_preview">
+    <TextView android:id="@+id/tv_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textColor="@color/wp_text2" android:textSize="11sp" android:text="Today" />
+    <TextView android:id="@+id/tv_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textColor="@color/wp_text" android:textSize="21sp" android:textStyle="bold" android:text="1.8 GB" />
+    <TextView android:id="@+id/tv_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textColor="@color/wp_text2" android:textSize="11sp" android:text="WiFi 1.2 GB · Mobile 0.6 GB" />
+</LinearLayout>
