@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:background="@drawable/widget_glass_preview">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView android:id="@+id/tv_name" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:maxLines="1" android:text="NetMonitor" android:textColor="@color/wp_text2" android:textSize="12sp" />
+        <TextView android:id="@+id/tv_net" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textColor="@color/wp_text2" android:textSize="12sp" android:text="Home WiFi · 82%" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:orientation="horizontal">
+        <TextView android:id="@+id/tv_down" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:maxLines="1" android:textColor="@color/wp_down" android:textSize="22sp" android:textStyle="bold" android:text="↓ 2.4 MB/s" />
+        <TextView android:id="@+id/tv_up" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:maxLines="1" android:textColor="@color/wp_up" android:textSize="22sp" android:textStyle="bold" android:text="↑ 380 KB/s" />
+    </LinearLayout>
+    <ImageView android:src="@drawable/widget_preview_graph" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:layout_marginTop="6dp" android:scaleType="fitXY" android:contentDescription="@null" />
+</LinearLayout>
