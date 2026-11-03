@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center_vertical" android:padding="14dp"
+    android:background="@drawable/widget_glass_preview">
+    <TextView android:id="@+id/tv_net" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"
+        android:ellipsize="end" android:textColor="@color/wp_text2" android:textSize="12sp" android:text="Home WiFi" />
+    <TextView android:id="@+id/tv_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginTop="6dp" android:textColor="@color/wp_text" android:textSize="32sp" android:textStyle="bold" android:text="82%" />
+    <TextView android:id="@+id/tv_signal_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:text="Signal strength" android:textColor="@color/wp_text2" android:textSize="11sp" />
+    <TextView android:id="@+id/tv_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginTop="8dp" android:textColor="@color/wp_text2" android:textSize="11sp" android:text="↓ 2.4 MB/s  ↑ 380 KB/s" />
+</LinearLayout>
