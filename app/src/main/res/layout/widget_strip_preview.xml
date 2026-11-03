@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal" android:gravity="center_vertical" android:paddingStart="16dp" android:paddingEnd="16dp"
+    android:background="@drawable/widget_glass_preview">
+    <TextView android:id="@+id/tv_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textColor="@color/wp_down" android:textSize="14sp" android:textStyle="bold" android:text="↓ 2.4 MB/s" />
+    <TextView android:id="@+id/tv_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="14dp" android:textColor="@color/wp_up" android:textSize="14sp" android:textStyle="bold" android:text="↑ 380 KB/s" />
+    <TextView android:id="@+id/tv_today" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+        android:gravity="end" android:maxLines="1" android:textColor="@color/wp_text2" android:textSize="13sp" android:text="Today 1.8 GB" />
+</LinearLayout>
